@@ -1,18 +1,49 @@
 @media screen and (max-width: 400px) {
-  #features {
-    padding: 20px;
-    width: 111%;
-  }
-  #about,
-  #services,
-  #testimonials,
-  #team,
-  #contact,
-  #footer {
-    width: 111%;
-  }
+	#features {
+		padding: 20px;
+		width: 111%;
+	}
+	#about,
+	#services,
+	#testimonials,
+	#team,
+	#contact,
+	#footer {
+		width: 111%;
+		min-height: 100svh;
+	}
 
-  #portfolio {
-    width: 110%;
-  }
+	#portfolio {
+		width: 110%;
+	}
+}
+#services {
+	background-image: url('../public/img/wedding/percorso2.jpeg');
+	background-repeat: no-repeat;
+	background: blur(2px);
+}
+.portfolio-items {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 10px;
+}
+.portfolio-item {
+	display: flex;
+	margin: 2px;
+	min-width: 300px;
+	max-height: 260px;
+	max-width: 500px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
+.forecast_cover {
+	z-index: 20;
+}
+.weatherwidget-io {
+	z-index: 10;
 }
