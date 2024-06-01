@@ -1,20 +1,20 @@
 import React, { useEffect } from 'react';
 
 export const About = (props) => {
-	useEffect(() => {
-		const script = document.createElement('script');
-		script.id = 'weatherwidget-io-js';
-		script.src = 'https://weatherwidget.io/js/widget.min.js';
-		script.async = true;
+	// useEffect(() => {
+	// 	const script = document.createElement('script');
+	// 	script.id = 'weatherwidget-io-js';
+	// 	script.src = 'https://weatherwidget.io/js/widget.min.js';
+	// 	script.async = true;
 
-		document.getElementsByTagName('head')[0].appendChild(script);
+	// 	document.getElementsByTagName('head')[0].appendChild(script);
 
-		return () => {
-			if (script.parentNode) {
-				script.parentNode.removeChild(script);
-			}
-		};
-	}, []);
+	// 	return () => {
+	// 		if (script.parentNode) {
+	// 			script.parentNode.removeChild(script);
+	// 		}
+	// 	};
+	// }, []);
 	return (
 		<div id="about">
 			<div className="container">
@@ -40,7 +40,7 @@ export const About = (props) => {
 					</div>
 				</div>
 				<div className="forecast_cover">
-					<a
+					{/* <a
 						className="weatherwidget-io"
 						href="https://forecast7.com/ru/60d0830d12/saint-petersburg/"
 						data-label_1="Санкт-Петербург"
@@ -49,7 +49,7 @@ export const About = (props) => {
 						disabled
 					>
 						Санкт-Петербург Погода
-					</a>
+					</a> */}
 				</div>
 			</div>
 		</div>
