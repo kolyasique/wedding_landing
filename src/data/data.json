@@ -33,18 +33,21 @@
 	"Services": [
 		{
 			"icon": "fa fa-wordpress",
+			"img": "img/wedding/food.svg",
 			"name": "Итальянская кухня",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+			"text": "Ресторан специализируется на высококлассной итальянской кухне. Вы сможете выбрать свое индивидуальное меню. Из еды будет сет закусок, сервируемых в стол, горячая закуска, основное блюдо и десерт."
 		},
 		{
 			"icon": "fa fa-cart-arrow-down",
+			"img": "img/wedding/food.svg",
 			"name": "Напитки",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+			"text": "На ужине будут хорошие вина и шампанское. Для тех, кому алкогольные напитки не интересны или 'еще нельзя', что-нибудь подберем из безалкогольного меню)"
 		},
 		{
 			"icon": "fa fa-cloud-download",
-			"name": "Что-то уверенное",
-			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+			"img": "img/wedding/food.svg",
+			"name": "Зал",
+			"text": "Зал, где будет проходить ужин - уютный и с очень красивым интерьером, вид из зала прямо на Исакиевский Собор."
 		}
 	],
 	"Testimonials": [

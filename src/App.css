@@ -18,8 +18,10 @@
 	}
 }
 #services {
-	background-image: url('../public/img/wedding/percorso2.jpeg');
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/img/wedding/percorso2.jpeg');
 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	background: blur(2px);
 }
 .portfolio-items {
@@ -46,4 +48,38 @@
 }
 .weatherwidget-io {
 	z-index: 10;
+}
+.service_img {
+	display: flex;
+	flex-direction: row;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	border-radius: 50%;
+}
+/* .col-md-4 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+} */
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+h1,
+h2 {
+	font-family: 'HeadersCustomFont', sans-serif;
+	text-transform: capitalize;
+	font-weight: 300;
+}
+p,
+span {
+	font-family: 'RegularCustomFont', sans-serif;
+}
+#brand_id {
+	/* font-family: 'RegularCustomFont', sans-serif; */
+	font-family: 'HeadersCustomFont', sans-serif !important;
+	text-transform: lowercase;
 }

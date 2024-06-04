@@ -1,5 +1,6 @@
 import React from 'react';
 
+import '../App.css';
 export const Navigation = (props) => {
 	return (
 		<nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -15,8 +16,8 @@ export const Navigation = (props) => {
 						<span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span>{' '}
 						<span className="icon-bar"></span> <span className="icon-bar"></span>{' '}
 					</button>
-					<a className="navbar-brand page-scroll" href="#page-top">
-						НИКОЛАЙ & ТАТЬЯНА
+					<a className="navbar-brand page-scroll" id="brand_id" href="#page-top">
+						Николай & Татьяна
 					</a>{' '}
 				</div>
 
