@@ -1,11 +1,11 @@
 {
 	"Header": {
-		"title": "СВАДЬБА",
+		"title": "Приглашаем Вас",
 		"paragraph": "28 августа 2024 (среда) 14:00"
 	},
 	"About": {
-		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-		"Why": ["Lorem ipsum dolor", "Tempor incididunt", "Lorem ipsum dolor", "Incididunt ut labore"],
+		"paragraph": "Наш день начинается с прогулки на яхте 'Elegance'. Место встречи - Петровская Коса 9 в 14:00. Место высадки - памятник 'Медный всадник'. На яхте будут легкие закуски и шампанское.",
+		"Why": ["Без обуви", "Будут тапочки", "Будет фотограф", "Не курить"],
 		"Why2": ["Aliquip ex ea commodo", "Lorem ipsum dolor", "Exercitation ullamco", "Lorem ipsum dolor"]
 	},
 	"Gallery": [
@@ -115,16 +115,19 @@
 	"Features": [
 		{
 			"icon": "fa fa-comments-o",
+			"time": "14:00 - 16:00",
 			"title": "Прогулка на яхте",
 			"text": "Первым мероприятием на нашей свадьбе будет прогулка на яхте длителльностью полтора часа. Яхта вмещает в себя 15 человек, будет шампанское, фуршет и фотограф)). Мы надеемся на хорошую погоду. На яхте нужно будет быть без обуви! Тапочки будут выданы на месте. Актуальный прогноз погоды на этот день. Место старта. Место окончания - медный всадник"
 		},
 		{
 			"icon": "fa fa-bullhorn",
+			"time": "16:00 - 17:00",
 			"title": "Прогуллка и фотосессия",
 			"text": "После прогулки на яхте, наш путь лежит прямиком в ресторан Percorso. Это порядка 500 метров от места высадки. Мы будем идти по центру города, и будет фотосессия у достопримечательностей центра Санкт-Петербурга."
 		},
 		{
 			"icon": "fa fa-group",
+			"time": "17:00 - 21:00",
 			"title": "Ресторан",
 			"text": "Ресторан Percorso - специализируется на блюдах Итальянской кухни. Мы приходим туда в 17:00, фотограф будет с нами ещще ориентировочно час, и  Предварительно, вам нужно будет выбрать сет из меню и отправить выбранный вариант"
 		}

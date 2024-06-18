@@ -104,7 +104,8 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	border-radius: 1px;
+	background: linear-gradient(to right, #308229 0%, #07211f 100%);
 	content: '';
 	transition: width 0.2s;
 }
@@ -125,7 +126,8 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	border-radius: 1px;
+	background: linear-gradient(to right, #308229 0%, #07211f 100%) !important;
 	content: '' !important;
 	transition: width 0.2s !important;
 }
@@ -152,9 +154,10 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: '';
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #308229 0%, #07211f 100%);
 	height: 4px;
 	width: 60px;
+	border-radius: 1px;
 	bottom: 0;
 	margin-left: -30px;
 	left: 50%;
@@ -166,14 +169,14 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	/* background-color: #5ca9fb; */
+	background-image: linear-gradient(to right, #308229 0%, #07211f 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
 	font-size: 15px;
 	font-weight: 500;
-	border-radius: 25px;
+	border-radius: 5px;
 	transition: all 0.5s linear;
 	border: 0;
 }
@@ -221,7 +224,7 @@ a:focus,
 .intro h1 {
 	font-family: 'Raleway', sans-serif;
 	color: #fff;
-	font-size: 82px;
+	font-size: 42px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-top: 0;
@@ -246,6 +249,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
+	/* width: 150%; */
 	background: #f6f6f6;
 }
 #features i.fa {
@@ -276,10 +280,11 @@ header .intro-text {
 #about h2::after {
 	position: absolute;
 	content: '';
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #308229 0%, #07211f 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
+	border-radius: 1px;
 	left: 0;
 }
 #about .about-text li {
@@ -291,7 +296,7 @@ header .intro-text {
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #5ca9fb;
+	color: #0f4530;
 	font-size: 11px;
 	font-weight: 300;
 	padding-right: 8px;
@@ -300,6 +305,7 @@ header .intro-text {
 	width: 520px;
 	margin-top: 10px;
 	background: #fff;
+	border-radius: 5px;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
@@ -362,13 +368,18 @@ header .intro-text {
 	overflow: hidden;
 	position: relative;
 	margin: 0;
+	-webkit-box-shadow: 0px 0px 14px 1px #07211f78;
+	-moz-box-shadow: 0px 0px 14px 1px #07211f78;
+	box-shadow: 0px 0px 14px 1px #07211f78;
+	border-radius: 5px;
 }
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgba(99, 114, 255, 0.8) 0%, rgba(92, 169, 251, 0.8) 100%);
+	background: linear-gradient(to right, #091408aa 0%, #07211faa 100%);
+	/* background: linear-gradient(to right, rgba(99, 114, 255, 0.8) 0%, rgba(92, 169, 251, 0.8) 100%); */
 	padding: 30% 0 0;
 	height: 100%;
 	width: 100%;
@@ -456,7 +467,9 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+   */
+	background: linear-gradient(to right, #091408 0%, #07211f 100%);
 	color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -518,8 +531,10 @@ label {
 	color: #444;
 	background-color: #fff;
 	background-image: none;
-	border: 1px solid #ddd;
-	border-radius: 0;
+	border-radius: 5px;
+	border: none;
+	/* border: 1px solid #ddd;
+	border-radius: 0; */
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: none;

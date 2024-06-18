@@ -16,9 +16,7 @@ export const Services = (props) => {
 									{/* <i className={d.img}>
 										<img src={d.img}></img>
 									</i> */}
-									<div className="service_img">
-										<img src={d.img}></img>
-									</div>
+									{/* <div className="service_img"><img src={d.img}></img></div> */}
 									<div className="service-desc">
 										<h3>{d.name}</h3>
 										<p>{d.text}</p>

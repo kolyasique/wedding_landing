@@ -17,7 +17,7 @@ const optionsFIO = [
 	{ value: 'option7', label: 'Посиницкий Эдуард Дмитриевич' },
 	{ value: 'option8', label: 'Посиницкая Мария Андреевна' },
 	{ value: 'option9', label: 'Якименко Владимир Эдуардович' },
-	{ value: 'option10', label: 'Якименко Светлана ююю' },
+	{ value: 'option10', label: 'Якименко Светлана Юрьевна' },
 ];
 const optionsSet = [
 	{ value: 'option1', label: 'Rafaello' },
@@ -68,7 +68,7 @@ export const Contact = (props) => {
 						<div className="row">
 							<div className="section-title">
 								<h2>Выбрать меню</h2>
-								<p>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
+								<p>Пожалуйста, выберите себя в списке и название сета, которое вы хотите заказать в ресторане!</p>
 							</div>
 							<form name="sentMessage" validate onSubmit={handleSubmit}>
 								<div className="row">

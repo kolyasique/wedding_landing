@@ -1,7 +1,7 @@
 @media screen and (max-width: 400px) {
 	#features {
 		padding: 20px;
-		width: 111%;
+		width: 150%;
 	}
 	#about,
 	#services,
@@ -9,12 +9,12 @@
 	#team,
 	#contact,
 	#footer {
-		width: 111%;
+		width: 150%;
 		min-height: 100svh;
 	}
 
 	#portfolio {
-		width: 110%;
+		width: 150%;
 	}
 }
 #services {
@@ -39,9 +39,6 @@
 	max-height: 260px;
 	max-width: 500px;
 	border-radius: 3px;
-	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
-	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
 }
 .forecast_cover {
 	z-index: 20;
@@ -81,5 +78,82 @@ span {
 #brand_id {
 	/* font-family: 'RegularCustomFont', sans-serif; */
 	font-family: 'HeadersCustomFont', sans-serif !important;
+	text-transform: capitalize !important;
+	font-size: 36px !important;
+	font-weight: 300 !important;
+}
+/* .navbar-brand {
 	text-transform: lowercase;
+} */
+.rowPlan {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	background: linear-gradient(to right, #091408 0%, #07211f 100%);
+	border-radius: 5px;
+	/* gap: 20px; */
+}
+.malyshka {
+	width: 100%;
+	display: flex;
+	/* border: 1px solid blue; */
+	/* border-radius: 5px; */
+	align-items: center;
+	gap: 30px;
+	height: 250px;
+	background: linear-gradient(to right, #091408 0%, #07211f 100%);
+	color: white;
+}
+.time {
+	display: flex;
+	position: relative;
+	align-items: center;
+	height: 100%;
+	padding: 20px;
+	max-width: 160px;
+	min-width: 160px;
+	border-right: 1px solid white;
+	justify-content: center;
+	font-family: 'HeadersCustomFont', sans-serif !important;
+	font-size: 20px;
+}
+.time::after {
+	display: block;
+	content: '';
+	position: absolute;
+	right: -4.5px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: white;
+}
+.malyshka:nth-of-type(1) {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.sboku {
+}
+.planText {
+	text-align: justify;
+	padding-right: 30px;
+	font-size: 12px;
+	font-family: 'RegularCustomFont', sans-serif;
+}
+/*
+.malyshka:nth-of-type(2) {
+	width: calc(100% - 20px);
+	margin-left: 20px;
+}
+*/
+.malyshka:nth-of-type(3) {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.planTitle {
+	font-family: 'HeadersCustomFont', sans-serif !important;
+	color: white;
+	font-weight: 300;
+	width: 30%;
+	font-size: 32px;
 }
