@@ -138,7 +138,7 @@ export const Contact = (props) => {
 										id="message"
 										className="form-control"
 										rows="4"
-										placeholder="Message"
+										placeholder="Дополнительно"
 										required
 										onChange={handleChange}
 									></textarea>
@@ -153,32 +153,51 @@ export const Contact = (props) => {
 					</div>
 					<div className="col-md-3 col-md-offset-1 contact-info">
 						<div className="contact-item">
-							<h3>Contact Info</h3>
+							<h3>Контакты</h3>
 							<p>
 								<span>
-									<i className="fa fa-map-marker"></i> Address
+									<i className="fa fa-map-marker"></i> Место старта
 								</span>
-								{props.data ? props.data.address : 'loading'}
+								{props.data ? props.data.addressYacht : 'loading'}
+							</p>
+							<p>
+								<span>
+									<i className="fa fa-map-marker"></i> Ресторан
+								</span>
+								{props.data ? props.data.addressRest : 'loading'}
 							</p>
 						</div>
 						<div className="contact-item">
 							<p>
 								<span>
-									<i className="fa fa-phone"></i> Phone
+									<i className="fa fa-phone"></i> Николай
 								</span>{' '}
-								{props.data ? props.data.phone : 'loading'}
+								{props.data ? props.data.phoneNikolai : 'loading'}
 							</p>
 						</div>
 						<div className="contact-item">
+							<p>
+								<span>
+									<i className="fa fa-phone"></i> Татьяна
+								</span>{' '}
+								{props.data ? props.data.phoneTanya : 'loading'}
+							</p>
+						</div>
+						{/* <div className="contact-item">
 							<p>
 								<span>
 									<i className="fa fa-envelope-o"></i> Email
 								</span>{' '}
 								{props.data ? props.data.email : 'loading'}
 							</p>
-						</div>
+						</div> */}
 					</div>
 					<div className="col-md-12">
+						<div className="row">
+							<div className="social">© 2024 kolyasique.dev</div>
+						</div>
+					</div>
+					{/* <div className="col-md-12">
 						<div className="row">
 							<div className="social">
 								<ul>
@@ -200,14 +219,14 @@ export const Contact = (props) => {
 								</ul>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</div>
-			<div id="footer">
+			{/* <div id="footer">
 				<div className="container text-center">
 					<p>&copy; 2024 kolyasique.dev</p>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };

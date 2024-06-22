@@ -1,0 +1,33 @@
+.r-viewer-toolbar .r-viewer-toolbar-prev,
+.r-viewer-toolbar .r-viewer-toolbar-next {
+	font-size: 60px;
+}
+.viewer-toolbar > ul > li {
+	height: 50px;
+	width: 50px;
+}
+.viewer-toolbar > ul > li::before {
+	margin: 15px 15px;
+}
+.viewer-toolbar > ul {
+	display: flex;
+	margin-bottom: 230px;
+	overflow: hidden;
+	padding: 6px 3px;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+}
+.viewer-button {
+	right: 0px;
+	top: 0px;
+}
+.viewer-button::before {
+	bottom: 30px;
+	left: 30px;
+	position: absolute;
+	font-size: 32px;
+}
+.viewer-backdrop {
+	background-color: rgb(0 0 0 / 77%);
+}

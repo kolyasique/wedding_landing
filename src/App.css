@@ -1,22 +1,49 @@
+.intro {
+	height: 100%;
+}
+.overlay {
+	height: 100%;
+}
+#rules {
+	width: 100%;
+	/* height: 100vh; */
+}
 @media screen and (max-width: 400px) {
-	#features {
-		padding: 20px;
-		width: 150%;
-	}
 	#about,
 	#services,
 	#testimonials,
 	#team,
 	#contact,
-	#footer {
+	#features {
 		width: 150%;
 		min-height: 100svh;
 	}
 
+	#header {
+		margin-top: 140px;
+		min-height: 120svh;
+		width: 150%;
+	}
+	.headerContent {
+		height: 100%;
+		margin-top: 150px;
+	}
+	#footer {
+		min-height: 20svh;
+	}
+	#rules {
+		width: 150%;
+	}
 	#portfolio {
 		width: 150%;
 	}
 }
+@media screen and (min-width: 400px) and (max-width: 550px) {
+	.portfolio-item {
+		width: 60;
+	}
+}
+
 #services {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/img/wedding/percorso2.jpeg');
 	background-repeat: no-repeat;
@@ -63,7 +90,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 100%;
+	/* width: 100%; */
+	flex-wrap: wrap;
 }
 h1,
 h2 {
@@ -131,6 +159,9 @@ span {
 .malyshka:nth-of-type(1) {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+	@media screen and (max-width: 550px) {
+		height: 450px;
+	}
 }
 .sboku {
 }
@@ -140,12 +171,13 @@ span {
 	font-size: 12px;
 	font-family: 'RegularCustomFont', sans-serif;
 }
-/*
+
 .malyshka:nth-of-type(2) {
-	width: calc(100% - 20px);
-	margin-left: 20px;
+	@media screen and (max-width: 550px) {
+		height: 330px;
+	}
 }
-*/
+
 .malyshka:nth-of-type(3) {
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
