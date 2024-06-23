@@ -42,6 +42,9 @@
 	width: 100%;
 }
 .itemText {
+	-webkit-box-shadow: 0px 0px 14px 1px #07211f33;
+	-moz-box-shadow: 0px 0px 14px 1px #07211f33;
+	box-shadow: 0px 0px 14px 1px #07211f33;
 	display: flex;
 	padding: 10px;
 	word-break: revert-layer;

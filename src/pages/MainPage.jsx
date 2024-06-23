@@ -14,7 +14,16 @@ import { Rules } from '../components/rules';
 export const scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
 	speedAsDuration: true,
-	offset: 140,
+	// offset: 140,
+	offset: (anchor, toggle) => {
+		const header = anchor.querySelector('h2'); // Найти заголовок внутри блока
+		if (header) {
+			const headerRect = header.getBoundingClientRect();
+			const anchorRect = anchor.getBoundingClientRect();
+			return anchorRect.top - headerRect.top + 160; // Смещение до заголовка + фиксированный offset
+		}
+		return 160; // Если заголовка нет, использовать стандартное смещение
+	},
 });
 
 export default function MainPage() {

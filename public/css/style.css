@@ -151,7 +151,7 @@ hr {
 	margin-top: 10px;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
-	text-align: center;
+	/* text-align: center; */
 }
 .section-title h2::after {
 	position: absolute;
@@ -189,7 +189,8 @@ hr {
 .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #6372ff;
+	/* background-color: linear-gradient(to right, #308229 0%, #07211f 100%); */
+	background-color: #07211f;
 }
 .btn:active,
 .btn.active {
@@ -339,7 +340,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	/* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
 	color: #fff;
 }
 #services .service-desc {
@@ -525,18 +526,23 @@ header .intro-text {
 }
 #contact form {
 	padding-top: 20px;
+	width: 100%;
 }
 #contact .text-danger {
 	color: #cc0033;
 	text-align: left;
 }
 #contact .btn-custom {
+	display: flex;
 	margin: 30px 0;
+	width: 100%;
+	text-align: center;
 	background: transparent;
 	border: 2px solid #fff;
+	justify-content: center;
 }
 #contact .btn-custom:hover {
-	color: #1f386e;
+	color: #07211f;
 	background: #fff;
 }
 label {

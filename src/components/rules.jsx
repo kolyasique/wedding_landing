@@ -118,7 +118,7 @@ export function Rules({ data }) {
 			id: id + 1,
 			title: data[index]?.title || '',
 			description: data[index]?.description || '',
-			height: 160 + Math.random() * 50,
+			height: 170 + Math.random() * 50,
 		}));
 		setItems(initialItems);
 	}, [data]);

@@ -43,8 +43,8 @@ export const Gallery = (props) => {
 				<div className="section-title">
 					<h2>Меню</h2>
 					<p>
-						Выберите сет, который вам понравится, и мы закажем его под вас. Если есть аллергия на выбранные продукты, просьба
-						сообщить и мы согласуем блюда
+						Ознакомьтесь с меню и выберите сет из блюд, который вам понравился, и мы закажем его для Вас. Если есть аллергия на
+						выбранные продукты, просьба указать ниже в форме и мы согласуем ингредиенты
 					</p>
 				</div>
 				<div className="row">
@@ -69,7 +69,7 @@ export const Gallery = (props) => {
 						>
 							{props.data
 								? props.data.map((d, i) => (
-										<div key={`${d.title}-${i}`} className="portfolio-item">
+										<div key={`${d.title}-${i}`}>
 											<img src={d.largeImage} className="portfolio-item" alt={d.title} />
 										</div>
 								  ))
