@@ -6,7 +6,7 @@ export const Services = (props) => {
 			<div className="container">
 				<div className="section-title">
 					<h2>Ресторан Percorso</h2>
-					<p>Зал "Антинори"</p>
+					<p className="antinori">Зал "Антинори"</p>
 				</div>
 				<div className="row">
 					{props.data

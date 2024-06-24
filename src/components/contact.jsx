@@ -619,7 +619,7 @@ export const Contact = (props) => {
 									<a
 										className="taxi"
 										data-title="Нажмите чтобы вызвать такси"
-										href="https://3.redirect.appmetrica.yandex.com/route?&end-lat=59.963138&end-lon=30.247048&tariffClass=comfortplus&ref=kolyasiquedev&appmetrica_tracking_id=1178268795219780156&lang=ru"
+										href="https://3.redirect.appmetrica.yandex.com/route?&end-lat=59.963138&end-lon=30.247048&tariffClass=comfortplus&ref=kolyasiquedev&appmetrica_tracking_id=25395763362139037&lang=ru"
 									>
 										Место встречи
 									</a>

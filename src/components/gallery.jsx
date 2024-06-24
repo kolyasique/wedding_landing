@@ -42,18 +42,18 @@ export const Gallery = (props) => {
 			<div className="container">
 				<div className="section-title">
 					<h2>Меню</h2>
-					<p>
-						Ознакомьтесь с меню и выберите сет из блюд, который вам понравился, и мы закажем его для Вас. Если есть аллергия на
+					<p className="menuDescr">
+						Ознакомьтесь с меню и выберите сет из блюд, который вам понравился - мы закажем его для Вас. Если есть аллергия на
 						выбранные продукты, просьба указать ниже в форме и мы согласуем ингредиенты
 					</p>
 				</div>
-				<div className="row">
+				<div className="rowsr">
 					<div className="portfolio-items">
 						<RViewerJS
 							options={{
 								toolbar: {
-									zoomIn: false,
-									zoomOut: false,
+									zoomIn: true,
+									zoomOut: true,
 									oneToOne: false,
 									reset: false,
 									prev: true, // Показываем кнопку "Назад"

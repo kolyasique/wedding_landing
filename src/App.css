@@ -6,12 +6,16 @@
 }
 #rules {
 	width: 100%;
-	background-image: url('../public/img/wedding/restik2.png');
+	background: url('../public/img/wedding/restik2.png');
+	/* background-image: url('../public/img/wedding/.png'); */
+
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover; /* Optional: to cover the entire area */
 }
-
+.menuDescr {
+	text-align: justify;
+}
 /* #portfolio {
 	
 } */
@@ -28,7 +32,7 @@
 
 	#header {
 		margin-top: 140px;
-		min-height: 120svh;
+		min-height: 130svh;
 		width: 150%;
 	}
 	.headerContent {
@@ -48,7 +52,7 @@
 }
 @media screen and (min-width: 400px) and (max-width: 550px) {
 	.portfolio-item {
-		width: 60;
+		/* width: 60; */
 	}
 }
 
@@ -76,9 +80,13 @@
 	margin: 2px;
 	min-width: 300px;
 	max-height: 260px;
-	max-width: 500px;
+	/* max-width: 500px; */
+	max-width: 380px;
 	border-radius: 3px;
 	transition: all 200ms ease-in-out;
+	@media screen and (min-width: 300px) and (max-width: 550px) {
+		max-width: 350px;
+	}
 }
 .portfolio-item:hover {
 	scale: 1.05;
@@ -145,7 +153,7 @@ span {
 	/* border-radius: 5px; */
 	align-items: center;
 	gap: 30px;
-	height: 250px;
+	height: 300px;
 	background: linear-gradient(to right, #091408 0%, #07211f 100%);
 	color: white;
 }
@@ -162,6 +170,16 @@ span {
 	font-family: 'HeadersCustomFont', sans-serif !important;
 	font-size: 20px;
 }
+@media screen and (min-width: 390px) and (max-width: 430px) {
+	.time {
+		min-width: 120px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.time {
+		min-width: unset;
+	}
+}
 .time::after {
 	display: block;
 	content: '';
@@ -176,7 +194,7 @@ span {
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	@media screen and (max-width: 550px) {
-		height: 450px;
+		/* height: 450px; */
 	}
 }
 .sboku {
@@ -190,7 +208,7 @@ span {
 
 .malyshka:nth-of-type(2) {
 	@media screen and (max-width: 550px) {
-		height: 330px;
+		/* height: 330px; */
 	}
 }
 
@@ -271,4 +289,8 @@ span {
 	margin: 20px 0px;
 	flex-direction: column;
 	align-items: stretch;
+}
+.antinori {
+	display: inline;
+	text-align: center;
 }
